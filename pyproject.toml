@@ -20,8 +20,10 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "build>=1.4.0",
     "ipython>=9.10.0",
     "pytest>=8.3.0",
+    "twine>=6.2.0",
 ]
 
 [project.urls]
